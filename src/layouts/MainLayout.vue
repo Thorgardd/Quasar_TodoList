@@ -6,12 +6,10 @@
         <q-toolbar-title>
           Todo List
         </q-toolbar-title>
-
-        <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
 
-    <q-drawer breakpoint="767" v-model="leftDrawerOpen" show-if-above bordered>
+    <q-drawer :breakpoint="767" v-model="leftDrawerOpen" show-if-above bordered>
       <q-list>
         <q-item-label header>
           Liens Essentiels
