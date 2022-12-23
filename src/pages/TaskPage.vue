@@ -12,7 +12,7 @@
     </div>
     <div class="todolist">
       <div class="singleTodo" v-for="task in tasks">
-        <Task :task="task" :callback="() => deleteTask(task.id)" :task-list="tasks"/>
+        <Task :task="task" :callback="() => deleteTask(task.id)" :task-list="tasks" class="no-min-height"/>
       </div>
     </div>
   </q-page>

@@ -49,4 +49,7 @@ export default {
   .deleteBtn{
     background-color: darkred;
   }
+  .no-min-height {
+    min-height: 0px !important;
+  }
 </style>
